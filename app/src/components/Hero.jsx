@@ -47,7 +47,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+          Используемые технологии
         </p>
         <ul
           role="list"
@@ -55,14 +55,14 @@ export function Hero() {
         >
           {[
             [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
+              // { name: 'Transistor', logo: logoTransistor },
+              // { name: 'Tuple', logo: logoTuple },
+              // { name: 'StaticKit', logo: logoStaticKit },
             ],
             [
-              { name: 'Mirage', logo: logoMirage },
+              // { name: 'Mirage', logo: logoMirage },
               { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
+              // { name: 'Statamic', logo: logoStatamic },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
