@@ -131,11 +131,11 @@ export function Pricing() {
             featured
             name="Сайт"
             price="15000 ₽"
-            description="За 1 сайт"
+            description="За 1 сайт в месяц. Только эта сумма и ни рублём больше."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
+              'Система управления контентом',
+              'Ризвитие в векторе бизнес-логики',
               'Track up to 50 expenses per month',
               'Automated payroll support',
               'Export up to 12 reports',
