@@ -99,20 +99,25 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="#features">Инструменты</NavLink>
+              <NavLink href="#testimonials">Отзывы</NavLink>
+              <NavLink href="#pricing">Цены</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
-            </div>
+            </div> */}
             <Button href="/register" color="blue">
+              <span>
+                8 (930) 671-14-55
+              </span>
+            </Button>
+            {/* <Button href="/register" color="blue">
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>
-            </Button>
+            </Button> */}
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
