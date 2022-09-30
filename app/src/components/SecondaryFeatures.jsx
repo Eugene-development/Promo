@@ -10,7 +10,7 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 
 const features = [
   {
-    name: 'Reporting',
+    name: 'Лендинг',
     summary: 'Stay on top of things with always up-to-date reporting features.',
     description:
       'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
@@ -44,7 +44,7 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Фирма',
     summary:
       'Never lose track of what’s in stock with accurate inventory tracking.',
     description:
@@ -72,7 +72,7 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Магазин',
     summary:
       'Organize all of your contacts, service providers, and invoices in one place.',
     description:
@@ -216,7 +216,7 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Предлагаем три вида сайтов
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Because you’d probably be a little confused if we suggested you
