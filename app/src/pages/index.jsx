@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>Саймакс - ваш сайт на заказ. Цена сайта всего 15000 рублей.</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Если вы решили сделать сайт на заказ, то мы решим этот вопрос. Вы останетесь довольны, так как цена сайта адекватна, а качество достойно."
         />
       </Head>
       <Header />

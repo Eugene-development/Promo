@@ -94,9 +94,9 @@ export function Header() {
     <header className="py-10">
       <Container>
         <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12">
+          <div className="flex items-center md:gap-x-12 backdrop-grayscale	grayscale">
             <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+              <Logo className="h-10 w-auto " />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Инструменты</NavLink>
@@ -109,7 +109,7 @@ export function Header() {
               <NavLink href="/login">Sign in</NavLink>
             </div> */}
             <Button href="/register" color="blue">
-              <span>
+              <span >
                 8 (930) 671-14-55
               </span>
             </Button>

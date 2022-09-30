@@ -136,10 +136,10 @@ export function Pricing() {
             features={[
               'Система управления контентом',
               'Ризвитие в векторе бизнес-логики',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
+              'Он-лайн чат',
+              'Почта на домене',
+              'Телефония ?',
+              'SSL/TLS сертификат',
               'Track in multiple currencies',
             ]}
           />

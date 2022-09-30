@@ -6,23 +6,23 @@ import backgroundImage from '@/images/background-faqs.jpg'
 const faqs = [
   [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'А что если мне не понравится?',
       answer:
         'Well no, but if you move your company offshore you can probably ignore it.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
+      question: 'Где ваш офис?',
       answer: 'Absolutely, we are happy to take your money in all forms.',
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'Можно безналом?',
       answer:
         'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
     },
   ],
   [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Где посмотреть работы?',
       answer:
         'TaxPal is just a software application, ultimately your books are your responsibility.',
     },
@@ -78,7 +78,7 @@ export function Faqs() {
             id="faq-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
           >
-            Frequently asked questions
+            Мы знаем ваши вопросы {':)'}
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             If you can’t find what you’re looking for, email our support team
