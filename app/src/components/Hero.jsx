@@ -2,12 +2,13 @@ import Image from 'next/future/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+import logoLaravel from '@/images/logos/laravel-ar21.svg'
+// import logoLaravel from '@/images/logos/laravel.svg'
+import logoGraphQL from '@/images/logos/graphql-ar21.svg'
+import logoReact from '@/images/logos/reactjs-ar21.svg'
+import logoSvelte from '@/images/logos/svelte.svg'
+import logoYandex from '@/images/logos/yandex.svg'
+import logoNode from '@/images/logos/nodejs-ar21.svg'
 
 export function Hero() {
   return (
@@ -55,14 +56,15 @@ export function Hero() {
         >
           {[
             [
-              // { name: 'Transistor', logo: logoTransistor },
-              // { name: 'Tuple', logo: logoTuple },
-              // { name: 'StaticKit', logo: logoStaticKit },
+              { name: 'Yandex', logo: logoYandex },
+              { name: 'Svelte', logo: logoSvelte },
+              { name: 'React', logo: logoReact },
             ],
             [
-              // { name: 'Mirage', logo: logoMirage },
+              
               { name: 'Laravel', logo: logoLaravel },
-              // { name: 'Statamic', logo: logoStatamic },
+              { name: 'GraphQL', logo: logoGraphQL },
+              { name: 'Nodejs', logo: logoNode }
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
