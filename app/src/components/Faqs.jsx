@@ -50,9 +50,9 @@ const faqs = [
       answer: 'In life it’s really better to never expect anything at all.',
     },
     {
-      question: 'Можно к вам устроиться на работу?',
+      question: 'Всё буду делать я?',
       answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
+        'От вас только общение с назначенным менеджером, а остальные настройки для работы проекта сделаем мы.',
     },
   ],
 ]

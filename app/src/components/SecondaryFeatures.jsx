@@ -46,7 +46,7 @@ const features = [
   {
     name: 'Фирма',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Стильный корпоративный сайт с блогом для представления вашего бизнеса в сети интернет.',
     description:
       'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
     image: screenshotInventory,
@@ -74,7 +74,7 @@ const features = [
   {
     name: 'Магазин',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Интернет-магазин с многоуровневой группировкой товаров, корзиной и фильтрами.',
     description:
       'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
     image: screenshotContacts,

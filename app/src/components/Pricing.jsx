@@ -87,7 +87,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
-        Get started
+        Начнём?
       </Button>
     </section>
   )
@@ -116,7 +116,7 @@ export function Pricing() {
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="SEO"
-            price="15000 ₽"
+            price="15 000 ₽"
             description="За 1 регион в месяц. Только эта сумма и ни рублём больше."
             href="/register"
             features={[
@@ -130,22 +130,24 @@ export function Pricing() {
           <Plan
             featured
             name="Сайт"
-            price="15000 ₽"
+            price="15 000 ₽"
             description="За 1 сайт в месяц. Только эта сумма и ни рублём больше."
             href="/register"
             features={[
+              'Доменное имя сайта',
               'Система управления контентом',
-              'Ризвитие в векторе бизнес-логики',
+              // 'Ризвитие в векторе бизнес-логики',
               'Он-лайн чат',
               'Почта на домене',
               'Телефония ?',
               'SSL/TLS сертификат',
-              'Track in multiple currencies',
+              'Встроенный блог',
+              'Мониторинг SEO позиций сайта',
             ]}
           />
           <Plan
             name="Реклама"
-            price="15000 ₽"
+            price="15 000 ₽"
             description="За 1 регион в месяц. Только эта сумма и ни рублём больше."
             href="/register"
             features={[

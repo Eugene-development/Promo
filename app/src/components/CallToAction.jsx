@@ -24,10 +24,10 @@ export function CallToAction() {
             Готовы попробовать?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            уктмоаитиьцуитцушоитцуеоитщ
+            С 1 секунды вам будет назначен менеджер для сопровождения проекта на всё время работы. После оформления заявки ожидайте звонка.
           </p>
           <Button href="/register" color="white" className="mt-10">
-            Первый месяц в подарок
+            Подать заявку
           </Button>
         </div>
       </Container>

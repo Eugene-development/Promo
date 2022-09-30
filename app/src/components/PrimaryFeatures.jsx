@@ -32,7 +32,7 @@ const features = [
   {
     title: 'SEO продвижение',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Встроенная в админ-панель система мониторинга позиций',
     image: screenshotReporting,
   },
   {
