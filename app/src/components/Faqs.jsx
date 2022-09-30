@@ -28,29 +28,29 @@ const faqs = [
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'А что если мой бизнес не пойдёт?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'Мы можем заморозить проект и позже продолжить его, когда ситуация изменится к лучшему.',
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'Можем ли мы оплатить один раз услугу без подписки?',
       answer:
         'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
     },
   ],
   [
     {
-      question: 'How do you generate reports?',
+      question: 'Почему лендинг стоит как интернет магазин?',
       answer:
         'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
     },
     {
-      question: 'Can we expect more inventory features?',
+      question: 'У вас есть партнёрская программа?',
       answer: 'In life it’s really better to never expect anything at all.',
     },
     {
-      question: 'I lost my password, how do I get into my account?',
+      question: 'Можно к вам устроиться на работу?',
       answer:
         'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
     },
