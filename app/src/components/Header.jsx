@@ -111,7 +111,7 @@ export function Header() {
             </div> */}
             <Button href="/register" color="blue">
               <span >
-                8 (930) 671-14-55
+                8 (930) 671-14-55 (менеджер)
               </span>
             </Button>
             {/* <Button href="/register" color="blue">
