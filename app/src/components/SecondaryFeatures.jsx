@@ -11,7 +11,7 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Лендинг',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    summary: 'Самый эффективный и быстрый вариант продвижения вашего товара или услуги через сайт.',
     description:
       'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
     image: screenshotProfitLoss,
@@ -219,8 +219,7 @@ export function SecondaryFeatures() {
             Предлагаем три вида сайтов
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Выбирайте наиболее подходящий под ваш бизнес один или несколько вариантов сайтов. 
           </p>
         </div>
         <FeaturesMobile />
