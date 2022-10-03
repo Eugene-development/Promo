@@ -120,11 +120,11 @@ export function Pricing() {
             description="За 1 регион в месяц. Только эта сумма и ни рублём больше."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Yandex и Google',
+              'Поведенческие факторы',
+              'Контент продвижение',
+              'Ссылочная масса',
+              'Учёт региональности',
             ]}
           />
           <Plan
@@ -151,11 +151,11 @@ export function Pricing() {
             description="За 1 регион в месяц. Только эта сумма и ни рублём больше."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Yandex Direct',
+              'Статистика в админ-панели',
+              'Работа с аудиториями',
+              'Система подмены контента',
+              'Аналитика в метрике',
             ]}
           />
         </div>
