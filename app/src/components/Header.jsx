@@ -94,7 +94,7 @@ export function Header() {
     <header className="py-10">
       <Container>
         <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12 backdrop-grayscale	grayscale">
+          <div className="flex items-center md:gap-x-12	saturate-200">
             <Link href="#" aria-label="Home">
               <Logo className="h-10 w-auto " />
             </Link>
