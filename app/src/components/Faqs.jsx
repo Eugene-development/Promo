@@ -8,23 +8,23 @@ const faqs = [
     {
       question: 'А что если мне не понравится?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'Вы можете остановить сотрудничество в любое удобное вам время. И продолжить как только нюансы будут решены.',
     },
     {
       question: 'Где ваш офис?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      answer: 'Мы он-лайн компания. Меньше офисов приводит к снижению цен.',
     },
     {
       question: 'Можно безналом?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'Да это возможно. Каждый проект рассматривается индивидуально.',
     },
   ],
   [
     {
       question: 'Где посмотреть работы?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'В целях повышения коммерческой безопасности мы не разглашаем наших контрагентов.',
     },
     {
       question:
@@ -36,23 +36,28 @@ const faqs = [
       question:
         'Можем ли мы оплатить один раз услугу без подписки?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        'В том то и смысл, что мы даём вам возможность сделать старт проекта на комфортных условия по подписке.',
     },
   ],
   [
     {
       question: 'Почему лендинг стоит как интернет магазин?',
       answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
+        'По большому счёту, вы в основном оплачиваете работу наших сотрудников, а не сам код. А работа с лендингом и интернет-магазином примерно одинакова.',
     },
     {
       question: 'У вас есть партнёрская программа?',
-      answer: 'In life it’s really better to never expect anything at all.',
+      answer: 'Да! Вы будете получать 20% от платежей каждого приведённого клиента.',
     },
     {
       question: 'Всё буду делать я?',
       answer:
         'От вас только общение с назначенным менеджером, а остальные настройки для работы проекта сделаем мы.',
+    },
+    {
+      question: 'А можно на наших серверах разместить сайт и админ-панель?',
+      answer:
+        'Так как мы даём наши разработки по принципу аренды, то и ресурсы могут размещаться только на наших серверах.',
     },
   ],
 ]
